@@ -433,7 +433,9 @@ section:nth-child(2n + 1) {
 #portfolio{
     /* background-image: url("https://images.unsplash.com/photo-1610730260505-0b9ed7f06293?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80"); */
     /* background-image: url("https://images.unsplash.com/photo-1620570623737-efc0ec4ab486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
-   
+   background-image: url("https://images.unsplash.com/photo-1575722290270-626b0208df99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjd8fHBvcnRmb2xpb3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=900&q=60");
+   background-repeat: no-repeat, repeat;
+   background-size: cover;
 }
 .imgdiv {
     height: 400px;
@@ -462,8 +464,10 @@ section:nth-child(2n + 1) {
     text-decoration: none;
   }
   .projects h1{
-      color: black;
+      color: white;
+      
   }
+ 
   .projects .imagefix .imagefixpy:hover{
     transform: scale(1.25);
     transition: 0.3s;
@@ -642,4 +646,3 @@ section {
 
 
   /* Education */
-  
