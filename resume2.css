@@ -346,10 +346,11 @@ section:nth-child(2n + 1) {
     background-repeat: no-repeat;
     color: white;
     font-size: 1rem;
-    /* position: relative; */
-    /* top: -130px; */
-    margin-top: -120px;
+    /* position: relative;
+    top: -130px; */
+    margin-top: 10px;
     background-size: 100% 100%;
+
 
 
 
@@ -433,8 +434,72 @@ section:nth-child(2n + 1) {
 
 
 /* work experience */
-#Experience{
+/* timeline */
+#Experience {
+background-image: url("https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80");
+background-repeat: no-repeat
+;
+background-size: cover;
+}
+#Experience h1 span{
+    color: black;
+}
+
+
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
 
 }
+.timeline-box{
+    position: relative;
+    width: 30%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black ;
+margin: 5px;
+}
+.timeline-box:nth-child(2n){
+    left: 53%;
+
+}
+.timeline-box:nth-child(2n+1)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    position:absolute;
+    top: 30%;
+    right: -50%;
+}
+.timeline-box:nth-child(2n)::after{
+    content: '';
+    border-radius: 50%;
+    width: 0.5rem;
+    height: 0.5rem;
+    background-color: red;
+    position:absolute;
+    top: 30%;
+    left: -12.5%;
+    z-index: 5;
+}
+.timeline-divider{
+    position: absolute;
+    height: 75%;
+    width: 0;
+    border: 3px dashed #0096fa6b;
+    top: 10%;
+    left: 50%;
+   
+}
+.timeline-traveller{
+    position: sticky;
+    top: 25%;
+    transform: rotate(90deg);
+    color: black;
+}
+
 
 
