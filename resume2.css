@@ -496,6 +496,8 @@ section:nth-child(2n + 1) {
     height: 600px;
     flex-wrap: wrap;
     align-items: space-between;
+    position: relative;
+    top: -100px;
   
 
   }
