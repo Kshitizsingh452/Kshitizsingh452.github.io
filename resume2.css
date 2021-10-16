@@ -16,13 +16,14 @@ body{
 /* body-header */
 #body-header{
     height: 65vh;
-    background-image: url(" https://images.unsplash.com/photo-1633639071815-549568b81057?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80");
+    background-image: url(" https://images.unsplash.com/photo-1511593358241-7eea1f3c84e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1674&q=80");
     background-position: center;
     background-attachment: fixed;
     opacity: 1;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 /* .horizontal-list */
 .horizontal-list{
