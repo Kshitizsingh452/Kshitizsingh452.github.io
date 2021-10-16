@@ -20,6 +20,9 @@ body{
     background-position: center;
     background-attachment: fixed;
     opacity: 1;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 /* .horizontal-list */
 .horizontal-list{
