@@ -1,6 +1,5 @@
-/* body{
+* body{
     margin: 0px;
-
 }
 #body-header{
     height: 70vh;
@@ -93,7 +92,7 @@ body{
     box-shadow: 0px 0px 6px 4px red;
 
 }
-
+/* about */
 #about p{
 
     display: inline-block;
@@ -116,25 +115,10 @@ body{
 #about p span{
     color: blue;;
 }
-/* section{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    /* height: 75vh; */
-    /* align-items: center; */
-/* }
-section:nth-child(2n)
-{
-    background-color: white;
-}
-
-section:nth-child(2n+1)
-{
-    background-color: white;
-} */ 
+/* section  */
 section {
     width: 100%;
-    /*height: 75vh;*/
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -172,150 +156,14 @@ section:nth-child(2n + 1) {
 
     
 }
-/* .mb75px {
-    margin-bottom: 75px;
-} */
+
 
 
 #image{
     margin-right: 10px;
 }
 
-/* skills- section */
-/* 
-.skills-display{
-    width: 70%;
-    height: 100px;
-    border: 2px solid black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.skill-progress{
-    width: 10rem;
-    height: 2rem;
-    background-color: black;
-    border-radius: 1rem;
-    border: 2px solid black;
-
-}
-.skill-progress>div{
-    border-radius: 20px 0px 0px 20px;
-}
-.skill-name span{
-     color: white;
-     font-size: larger;
-     text-align: center;
-     margin: 50px;
-     font-weight: 800;
-     font-size: x-large;
-
-
-}
-/* perecentage class
- */
- /* .eight-five-percent{
-     width: 85%;
-     height: inherit;
- }
- .skill-name2 span{
-    color: white;
-    font-size: larger;
-    text-align: center;
-    margin: 50px;
-    font-weight: 800;
-    font-size: x-large;
-   
-
-
-}
-.skill-progress2{
-    width: 10rem;
-    height: 2rem;
-    background-color: orange;
-    border-radius: 1rem;
-    border: 2px solid black;
-
-
-    
-
-}
-.skill-progress3{
-    width: 10rem;
-    height: 2rem;
-    background-color: red;
-    border-radius: 1rem;
-    border: 2px solid black;
-
-
-    
-
-}
-.skill-name3 span{
-    color: white;
-    font-size: larger;
-    text-align: center;
-    margin: 70px;
-    font-weight: 800;
-    font-size: x-large;
-   
-
-
-}
-.skill-progress4{
-    width: 10rem;
-    height: 2rem;
-    background-color: grey;
-    border-radius: 1rem;
-    border: 2px solid black;
-    bottom: auto;
-
-
-
-
-    
-
-}
-.skill-name4 span{
-    color: white;
-    font-size: larger;
-    text-align: center;
-    margin-left: 50px;
-    font-weight: 800;
-    font-size: x-large;
-    padding-left: -50px;
-   
-
-
-}
- 
- 
-.skill-progress5{
-    width: 10rem;
-    height: 2rem;
-    background-color: violet;
-    border-radius: 1rem;
-    border: 2px solid black;
-    bottom: auto;
-
-
-
-
-    
-
-}
-.skill-name5 span{
-    color: white;
-    font-size: larger;
-    text-align: center;
-    margin-left: 50px;
-    font-weight: 800;
-    font-size: x-large;
-    padding-left: -50px;
-   
-
-
-} */
+/* skills */
 #s1{
     position: relative;
     top: -200px;
@@ -401,54 +249,14 @@ section:nth-child(2n + 1) {
 }
 
 
- /* portfolio */
- /* #portfolio span{
-    position: relative; 
-    top: -200px;
- }
- 
- #imagefix{
-     height: 300px;
-     width: 300px;
-     position: relative;
-     top: -200px;
-     right: 0px;
-     left: -500px;
+/* portfolio */
 
-     
- }
- .projects span{
-   
-     font-weight: 800;
-     font-size: xx-large;
-     position:relative; 
-     left:-24rem; 
-     top:2px;
-     text-decoration: none;
-
-
-
-
- }
- .projects span a:hover{
-     color: royalblue;
-     text-decoration: none;
-
- }
-.projects {
-    display: flex;
-    justify-content: space-between;
-    width: 100vw;
-    height: auto;
-} */
 #pf{
     position: relative;
     top: -200px;
 }
 #portfolio{
-    /* background-image: url("https://images.unsplash.com/photo-1610730260505-0b9ed7f06293?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=987&q=80"); */
-    /* background-image: url("https://images.unsplash.com/photo-1620570623737-efc0ec4ab486?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"); */
-   /* background-image: url("https://images.unsplash.com/photo-1547127796-06bb04e4b315?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1674&q=80"); */
+
    background-repeat: no-repeat, repeat;
    background-size: cover;
    position: relative;
@@ -523,55 +331,7 @@ section:nth-child(2n + 1) {
     
     
 }
-/* #container{
-/* height: 800px;
-width: 1000px;
-margin: 40px;
-border: 4px solid black;
-/* background-image: linear-gradient(to top,#93738c,#0b817c,#2857a4); */
-/* background: repeating-linear-gradient(to top right,red,blue); */ 
 
-
-/* }  */
-/* .anime{
-    animation-name: fadeInUp; 
-    visibility: visible;
-     animation-delay: 0.1s;
-     border: 3px solid red;
-     width: 70rem;
-     height: 1000px;
-     background-image: url("https://images.unsplash.com/photo-1607798748738-b15c40d33d57?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=2070&q=80");
-margin-top: 150px;
-} */
-
-/* .anime .info{
-    margin:150px ;
-color: grey;
-font-size: 20px;
-display: flex;
-flex-direction: row;
-border-bottom: 2px solid white;
-
-
-} */
-
-section {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    justify-content: center;
-    align-items: center;
-    padding-bottom: 4rem;
-  }
-  
-  section > div i {
-    margin-right: 1rem;
-  }
-  
-  /* section:nth-child(2n) {
-    background-color: #f0f0f0;
-  } */
   
   .section-heading {
     margin: 4rem 0;
@@ -672,4 +432,9 @@ section {
   }
 
 
-  /* Education */
+/* work experience */
+#Experience{
+
+}
+
+
