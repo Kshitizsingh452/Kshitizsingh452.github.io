@@ -1,3 +1,7 @@
+*{
+    background-attachment: fixed;
+
+}
 * body{
     margin: 0px;
 }
@@ -174,6 +178,7 @@ section:nth-child(2n + 1) {
     margin-bottom: 200px;
     padding-top: 40px;
     background-size: cover;
+    background-attachment: fixed;
 }
 #sk span{
     color: white;
@@ -350,6 +355,8 @@ section:nth-child(2n + 1) {
     top: -130px; */
     margin-top: 10px;
     background-size: 100% 100%;
+    background-attachment: fixed;
+
 
 
 
@@ -440,6 +447,8 @@ background-image: url("https://images.unsplash.com/photo-1513002749550-c59d786b8
 background-repeat: no-repeat
 ;
 background-size: cover;
+background-attachment: fixed;
+
 }
 #Experience h1 span{
     color: black;
