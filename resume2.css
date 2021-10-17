@@ -472,7 +472,7 @@ margin: 5px;
     background-color: red;
     position:absolute;
     top: 30%;
-    right: -50%;
+    right: -80%;
 }
 .timeline-box:nth-child(2n)::after{
     content: '';
@@ -482,7 +482,7 @@ margin: 5px;
     background-color: red;
     position:absolute;
     top: 30%;
-    left: -12.5%;
+    left: -15%;
     z-index: 5;
 }
 .timeline-divider{
@@ -490,7 +490,7 @@ margin: 5px;
     height: 75%;
     width: 0;
     border: 3px dashed #0096fa6b;
-    top: 10%;
+    top: 40%;
     left: 50%;
    
 }
