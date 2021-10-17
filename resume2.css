@@ -449,7 +449,7 @@ background-size: cover;
 .timeline{
     position: relative;
     width: 75%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
 .timeline-box{
@@ -457,7 +457,7 @@ background-size: cover;
     width: 30%;
     left: 5%;
     min-height: 150px;
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
 margin: 5px;
 }
 .timeline-box:nth-child(2n){
@@ -506,7 +506,7 @@ margin: 5px;
 .timeline{
     position: relative;
     width: 75%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
 }
 .timeline-box{
@@ -514,13 +514,23 @@ margin: 5px;
     width: 30%;
     left: 5%;
     min-height: 150px;
-    border: 2px solid black ;
+    /* border: 2px solid black ; */
 margin: 5px;
+text-align: center;
 }
 .timeline-box:nth-child(2n){
     left: 53%;
 
 }
+.timeline-box h2{
+color: #ec4d1c;
+
+}
+.timeline-box h4{
+    color: #1262b3;
+    font-weight: 900;
+    
+    }
 .timeline-box:nth-child(2n+1)::after{
     content: '';
     border-radius: 50%;
