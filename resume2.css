@@ -61,6 +61,11 @@ body{
     margin-bottom: 0.5rem;
     transition: ease-in-out;
 }
+#my-name:hover{
+    color: #ec4d1c;
+    transform: scale(1.5);
+    transition: 1.5s;
+}
 
 .icon{
     height: 40px;
@@ -192,6 +197,11 @@ section:nth-child(2n + 1) {
 }
 #sk span{
     color: white;
+}
+#sk  h1  :hover{
+    color: gold;
+    transform: scale(1.5);
+    transition: 1.5s;
 }
  
 .skills-display {
