@@ -1,0 +1,53 @@
+/* for nav bar  */
+@media only screen and (max-width: 768px) {
+    nav {
+      margin: 0px 4px;
+    }
+  }
+  /* education and experience */
+  @media only screen and (max-width: 768px) {
+    .timeline {
+      width: 100%;
+      min-width: 0;
+    }
+    .timeline-divider {
+      height: 85%;
+      left: 5%;
+    }
+    .timeline-box {
+      margin: 2em;
+      width: 85%;
+    }
+    .timeline-box:nth-child(2n) {
+      left: 5%;
+    }
+  }
+  /* about */
+  
+      @media only screen and (max-width:568px) {
+
+     #about p{
+         width: 100%;
+         font-size: x-small;
+         text-align: center;
+         height: fit-content;
+         min-width: 0;
+         right: 60%;
+         
+     }
+          
+      }
+  
+
+  /* portfolio */
+
+       @media only screen and (max-width:768px) {
+         #portfolio .imagediv {
+             
+
+         }
+          
+      }  
+
+
+  
