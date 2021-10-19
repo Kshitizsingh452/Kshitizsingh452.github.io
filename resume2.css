@@ -59,7 +59,9 @@ body{
     letter-spacing: 0.1rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
+    transition: ease-in-out;
 }
+
 .icon{
     height: 40px;
     width: auto;
@@ -204,6 +206,7 @@ section:nth-child(2n + 1) {
     box-shadow: 1px 1px 2px 1px #b9b9b9 inset;
     margin: 25px;
     overflow: hidden;
+   transition: ease-in-out;
 }
 .skill-progress:hover{
     /* border-radius: 80%; */
@@ -211,6 +214,8 @@ section:nth-child(2n + 1) {
       text-shadow: 0px 0px 20px #a59f9f;
       box-shadow: 0px 0px 6px 4px burlywood;
       transform: scale(1.5);
+      
+
       
 }
 
@@ -231,6 +236,7 @@ section:nth-child(2n + 1) {
 
 .mb-orange {
     background-color: #ec4d1c;
+    transition: 3s;
 }
 
 .mb-teal {
@@ -243,23 +249,32 @@ section:nth-child(2n + 1) {
 
 
 
-.eighty-five-percent {
+.eighty-five-percent:hover {
     height: inherit;
     width: 85%;
+    transition: 3s;
+    
+
 }
 
 .eighty-percent {
     height: inherit;
     width: 80%;
+    transition: 3s;
+
 }
 
 .fifty-percent {
     height: inherit;
     width: 50%;
+    transition: 3s;
+
 }
 .ninety-percent{
     height: inherit;
     width: 90%;
+    transition: 3s;
+
 }
 
 
