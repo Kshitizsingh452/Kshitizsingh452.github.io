@@ -24,30 +24,51 @@
   }
   /* about */
   
-      @media only screen and (max-width:568px) {
+      
+      @media only screen and (max-width: 768px) {
+        #about p {
+          width: 80%;
+          min-width: 0;
+          font-size: xx-small;
 
-     #about p{
-         width: 100%;
-         font-size: x-small;
-         text-align: center;
-         height: fit-content;
-         min-width: 0;
-         right: 60%;
-         
-     }
-          
+          padding-left: 150px;
+          margin-top: -50px;
+        }
+        #about #my-image {
+          min-width: 180px;
+        }
       }
   
 
   /* portfolio */
 
-       @media only screen and (max-width:768px) {
-         #portfolio .imagediv {
-             
+        @media only screen and (max-width:768px) {
+         #portfolio .projects .imagediv .imagefix{
+          width: 45%;
 
          }
           
       }  
 
 
-  
+    
+/* contacts */
+@media only screen and (max-width: 572px) {
+  #contact .social-links {
+    font-size: 0.75em;
+  }
+  #contact .social-links i {
+    padding: 0 0.25em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .contact-container {
+    min-width: 0;
+  }
+  .contact-container .contact-form-container {
+    margin-bottom: 5rem;
+  }
+  .contact-container .contact-form-container, .contact-container .address-container {
+    flex-basis: 80%;
+  }
+}

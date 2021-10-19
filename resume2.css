@@ -104,12 +104,13 @@ body{
 
 }
 /* about */
-#about p{
+#about #ab p{
 
     display: inline-block;
 
     text-align: left;
     width: 500px;
+
 
     text-align: center;
 
@@ -120,6 +121,8 @@ body{
     font-size: 1.1rem;
     position: relative;
     left: -150px;
+
+
 
    
 }
@@ -257,6 +260,7 @@ section:nth-child(2n + 1) {
     height: inherit;
     width: 85%;
     transition: 3s;
+
     
 
 }
@@ -328,6 +332,8 @@ section:nth-child(2n + 1) {
  
   .projects h1:hover{
       color: red;
+     transform: scale(1.5);
+     transition: 1.5s;
   }
   .projects .imagefix:hover
   {
